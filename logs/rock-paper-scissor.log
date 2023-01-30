@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-30T13:48:52.240359Z</date>
+  <millis>1675086532240</millis>
+  <nanos>359000</nanos>
+  <sequence>0</sequence>
+  <logger>v1.TwoPlayerMultiSessionRpsGame</logger>
+  <level>INFO</level>
+  <class>v1.TwoPlayerMultiSessionRpsGame</class>
+  <method>sessionPlay</method>
+  <thread>1</thread>
+  <message>Session play info: [PlayerTurnInput{player=Player{id='a19d3304-9785-46a2-b0a1-9c961522ecf7', name='realPlayer'}, playerInput=HandRoll{value='PAPER'}}, PlayerTurnInput{player=Player{id='4042fc0a-a805-4b4a-94e5-ee0ee2d1962c', name='computer'}, playerInput=HandRoll{value='PAPER'}}]</message>
+</record>
+<record>
+  <date>2023-01-30T13:48:52.251310Z</date>
+  <millis>1675086532251</millis>
+  <nanos>310000</nanos>
+  <sequence>1</sequence>
+  <logger>v1.RPSWinnerFinder</logger>
+  <level>INFO</level>
+  <class>v1.RPSWinnerFinder</class>
+  <method>find</method>
+  <thread>1</thread>
+  <message>Player1 turn inputPlayerTurnInput{player=Player{id='a19d3304-9785-46a2-b0a1-9c961522ecf7', name='realPlayer'}, playerInput=HandRoll{value='PAPER'}}
+ Player2 turn inputPlayerTurnInput{player=Player{id='4042fc0a-a805-4b4a-94e5-ee0ee2d1962c', name='computer'}, playerInput=HandRoll{value='PAPER'}}</message>
+</record>
+</log>
